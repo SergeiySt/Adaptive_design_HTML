@@ -193,10 +193,10 @@ img{
 
 .wrapper .Card .LearnMoreBlockWraper .LearnMoreBlock a{
 	text-decoration: none;
-	background: url("../image/Shape.svg");
+	background: url("image/Shape.svg");
 	background-repeat: no-repeat;
 	background-size: 33px 8px;
-	background-position: 128px 6px;
+	background-position: 190px 6px;
 	color: #006DFE;
 	font-size: 16px;
 	font-family: Lato;
