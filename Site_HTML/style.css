@@ -87,50 +87,6 @@ img{
 	flex-shrink: 0;
 }
 
-.wrapper .SearchForm .QLike{
-	display: flex;
-	flex-direction: column;
-	flex-shrink: 0;
-}
-
-.wrapper .SearchForm .QLike:nth-child(2){
-	margin-left: 62px;
-}
-
-.wrapper .SearchForm .QLike label{
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-	color: #FFF;
-	background: url("../image/Oval.svg");
-	background-repeat: no-repeat;
-	padding-left: 43px;
-	margin-bottom: 0px;
-
-}
-.wrapper .SearchForm .QLike input{
-	width: 297px;
-	font-size: 22px;
-	color: #FFF;
-	background: none;
-	border: none;
-	border-bottom: 3px solid #BFC0C5;
-}
-
-.wrapper .SearchForm button{
-	margin-left: 60px;
-	width: 171px;
-	height: 58px;	
-	background-color: #1B7DFF;
-	color: #FFF;
-	font-size: 24px;
-	font-family: Lato;
-	font-style: normal;
-	font-weight: 500;
-	line-height: normal;
-}
 
 .wrapper .Card{
 	margin-left: 89px;
@@ -196,7 +152,7 @@ img{
 	background: url("image/Shape.svg");
 	background-repeat: no-repeat;
 	background-size: 33px 8px;
-	background-position: 190px 6px;
+	background-position: 185px 6px;
 	color: #006DFE;
 	font-size: 16px;
 	font-family: Lato;
@@ -204,22 +160,6 @@ img{
 	font-weight: 400;
 	line-height: 24px;
 	padding-right: 59px;
-}
-
-.wrapper .GetInspiredSection{
-	margin-left: 89px;
-	margin-right: 89px;
-	max-width: 1262px;
-	background-color: #FFFFFF;
-	margin-bottom: 131px;
-}
-
-.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	margin-bottom: 36px;
 }
 
 #h2WithUnderLine {
@@ -229,39 +169,12 @@ img{
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
-	background: url("../image/Line\ 2.svg");
+	background: url("image/Line2.svg");
 	background-repeat: no-repeat;
 	background-position: 0px 49px;
 	padding-bottom: 10px;
 }
 
-.wrapper .GetInspiredSection .GetInspiredSectionOneLine a{
-	text-decoration: none;
-	background: url("../image/Shape.svg");
-	background-repeat: no-repeat;
-	background-size: 33px 8px;
-	background-position: 98px 8px;
-	color: #006DFE;
-	font-size: 16px;
-	font-family: Lato;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-	padding-right: 59px;
-}
-
-.wrapper .GetInspiredSection .GetInspiredSectionImageBlock{
-	display: flex;
-	flex-direction: column;
-}
-
-.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	margin: 0 -5px;
-	margin-bottom: 10px;
-}
 
 .ImageBlock{
 	position: relative;
@@ -295,18 +208,6 @@ img{
 	height: 100%;
 }
 
-.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin: 0 -5px;
-}
-
-.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock .ImageBlock{
-	margin: 0 5px;
-	box-shadow: 0px 2px 20px 0px rgba(21, 24, 36, 0.16);
-}
-
 .wrapper .PrefectureSection{
 	margin-left: 89px;
 	margin-right: 89px;
@@ -316,69 +217,6 @@ img{
 	flex-direction: column;
 	flex-wrap: nowrap;
 }	
-
-.wrapper .PrefectureSection .PrefectureSectionOneColumn{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	margin-bottom: 55px;
-}
-
-.wrapper .PrefectureSection .PrefectureSectionOneColumn img{
-	max-width: 597px;
-	max-height: 354px;
-}
-
-.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	max-width: 519px;
-
-} 
-
-.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation h3{
-	margin-top: 26px;
-	margin-bottom: 85px;
-	color: #102746;
-	font-family: Lato;
-	font-size: 30px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 40px;
-}
-
-.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation p{
-	color: #102746;
-	font-family: Lato;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-	margin-bottom: 58px;
-}
-
-/* * СТИЛЬ ССЫЛКИ СО СТРЕЛОЧКОЙ */
-.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a{
-	display: flex;
-	align-items: center;
-	text-decoration: none;
-	color: #006DFE;
-	font-family: Lato;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 24px;
-}
-
-/* * СТИЛЬ ССЫЛКИ СО СТРЕЛОЧКОЙ */
-.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a img{
-	margin-left: 27px;
-	width: 33px;
-	height: 8px;
-}
-
 
 .wrapper .TopPlaceToVisit{
 	margin-left: 89px;
@@ -422,7 +260,7 @@ img{
 
 .wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock{
 	position: relative;
-	margin-bottom: 45px;
+	margin-bottom: 0px;
 	width: 386px;
 	height: 377px;
 }
@@ -430,7 +268,7 @@ img{
 .wrapper .TopPlaceToVisit .TopPlaceToVisitContainer .TopPlaceToVisitOneItem .TopPlaceImageBlock .TopPlaceImageBlockDescription{
 	position: absolute;
 	width: inherit;
-	bottom: 0px;
+	bottom: 65px;
 	height: 55px;
 	display: flex;
 	flex-direction: row;
@@ -517,29 +355,7 @@ img{
 	margin-top: 12px;
 }
 
-.wrapper .VideoBlock{
 
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: center;
-}
-
-.wrapper .VideoBlock::after{
-	content: '';
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0; left: 0;
-	background: rgba(21, 24, 36, 0.40);
-}
-
-.wrapper .VideoBlock .VideoImgPlayButton{
-	position: absolute;
-	align-self: center;
-	z-index: 1;
-}
 
 .wrapper footer{
 	display: flex;
@@ -547,7 +363,7 @@ img{
 	flex-wrap: wrap;
 	justify-content: space-between;
 	background: #0E1D28;
-	height: 370px;
+	height: 300px;
 }
 
 .wrapper footer img{
@@ -589,19 +405,7 @@ img{
 
 
 @media screen and (max-width: 1350px) {
-	.wrapper .PrefectureSection{
-		margin-bottom: 60px;
-	}
-
-	/* .wrapper .PrefectureSection .PrefectureSectionOneColumn .PrefectureSectionOneColumnImage{
-		min-width: 360px;
-	} */
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-
+	
 	.wrapper .TopPlaceToVisit .TopPlaceToVisitContainer{
 		justify-content: space-around;
 	}
@@ -715,42 +519,14 @@ img{
 		margin-bottom: 17px;
 	}
 
-	.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
-		flex-direction: column;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
-		flex-wrap: wrap;
-		margin: 0px;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
-		flex-wrap: wrap;
-		margin: 0px;
-	}
+	
 
 	.ImageBlock{
 		margin: 0px;
 		width: -webkit-fill-available;
 	}
 
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn{
-		flex-direction: column;
-		flex-wrap: wrap;
-		justify-content: center;
-	}
-
-	.wrapper .PrefectureSection{
-		align-items: center;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn:last-child{
-		flex-direction: column-reverse;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
-		padding: 0px;
-	}
+	
 }
 
 @media screen and (max-width: 646px) {
@@ -830,76 +606,12 @@ img{
 		margin-left: 98px;
 	}
 
-	.wrapper .GetInspiredSection{
-		margin-left: 0px;
-		margin-right: 0px;
-		margin-bottom: 40px;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionOneLine{
-		align-items: center;
-		margin-bottom: 15px;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionOneLine h2{
-		margin-bottom: 12px;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerBigImageBlock{
-		margin: 0px;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock{
-		margin: 0px;
-		margin-left: 10px;
-		margin-right: 10px;
-	}
-	.wrapper .GetInspiredSection .GetInspiredSectionImageBlock .ContainerSmallImageBlock .ImageBlock{
-		margin: 0px;
-	}
 
 	.ImageBlock p{
 		bottom: 15px;
 		width: inherit;
 		text-align: center;
 	} 
-
-	.wrapper .PrefectureSection {
-		margin: 0px;
-		margin-left: 10px;
-		margin-right: 10px;
-		flex-wrap: wrap;
-		align-items: normal;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn{
-		margin-bottom: 20px;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn img{
-		max-width: inherit;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation{
-		max-width: inherit;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation h3{
-		margin-top: 10px;
-		margin-bottom: 10px;
-		text-align: center;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation p{
-		margin-bottom: 15px;
-	}
-
-	.wrapper .PrefectureSection .PrefectureSectionOneColumn .TextInformation a{
-		display: block;
-		align-self: center;
-	}
 
 	.wrapper .TopPlaceToVisit{
 		margin-left: 10px;
